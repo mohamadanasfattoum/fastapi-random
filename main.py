@@ -20,5 +20,5 @@ async def get_random():
 
 
 @app.get('/name')
-def name():
+async def name():
     return {'name': 'Anas'}

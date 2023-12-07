@@ -1,9 +1,9 @@
-from fastapi import Fastapi
+from fastapi import FastAPI
 
 import random
 
 
-app = Fastapi()
+app = FastAPI()
 
 
 @app.get('/')
